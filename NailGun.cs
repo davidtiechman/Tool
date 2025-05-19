@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Toolbox
 {
-    internal class NailGun
+    public class NailGun : Tool
     {
+        public NailGun(string name, int weghte) : base(name, weghte)
+        {
+
+        }
+        
+        public override void Use()
+        {
+            Console.WriteLine("המהדק סיכות מכניס סיכות לקיר");
+        }
     }
 }
