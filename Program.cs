@@ -18,9 +18,13 @@ namespace Toolbox
             Hammer hammer1 = new Hammer("hammer", 10);
             List<Tool> listTool = new List<Tool>() { drill1, saw1, saw2, saw3, wrench1, hammer1 };
 
+            //foreach (Tool tool in listTool)
+            //{
+            //    tool.Descride();
+            //}
             foreach (Tool tool in listTool)
             {
-                tool.Descride();
+                tool.Use();
             }
         }
     }
