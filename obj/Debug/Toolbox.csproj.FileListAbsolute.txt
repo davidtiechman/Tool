@@ -1,0 +1,7 @@
+C:\Users\This_user\source\repos\Toolbox\bin\Debug\Toolbox.exe.config
+C:\Users\This_user\source\repos\Toolbox\bin\Debug\Toolbox.exe
+C:\Users\This_user\source\repos\Toolbox\bin\Debug\Toolbox.pdb
+C:\Users\This_user\source\repos\Toolbox\obj\Debug\Toolbox.csproj.AssemblyReference.cache
+C:\Users\This_user\source\repos\Toolbox\obj\Debug\Toolbox.csproj.CoreCompileInputs.cache
+C:\Users\This_user\source\repos\Toolbox\obj\Debug\Toolbox.exe
+C:\Users\This_user\source\repos\Toolbox\obj\Debug\Toolbox.pdb

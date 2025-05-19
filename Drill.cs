@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Toolbox
 {
-    internal class Drill
+    public class Drill : Tool
     {
+        public Drill(string name, int weghte) : base(name, weghte)
+        {
+
+        }
+        public override void Use()
+        {
+            Console.WriteLine("הקודח עושה חורים בקיר");
+        }
     }
 }

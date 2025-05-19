@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeFile1.cs" />
+    <Compile Include="CodeFile2.cs" />
+    <Compile Include="Drill.cs" />
+    <Compile Include="Hammer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Saw.cs" />
+    <Compile Include="Saw1.cs" />
+    <Compile Include="Tool.cs" />
+    <Compile Include="Wrench.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
