@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Toolbox
 {
-    internal class Tool
+     public class Tool
     {
         string Name;
         int Weghte;
@@ -17,7 +17,7 @@ namespace Toolbox
         }
         public void Descride()
         {
-            Console.WriteLine();
+            Console.WriteLine(Name,Weghte);
 
         }
         public void Use()
