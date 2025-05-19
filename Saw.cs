@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Toolbox
 {
-    internal class Saw
+    public class Saw :Tool
     {
+        public Saw(string name,int weghte) : base(name, weghte)
+        {
+
+        }
+        public override void Use()
+        {
+            Console.WriteLine("המסור חותך עץ");
+        }
     }
 }

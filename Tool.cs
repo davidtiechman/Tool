@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Toolbox
 {
-     public class Tool
+        abstract public class Tool
     {
-        string Name;
-        int Weghte;
+        private string Name;
+        private int Weghte;
         public Tool(string name,int weghte)
         {
             this.Name = name;
@@ -17,12 +17,11 @@ namespace Toolbox
         }
         public void Descride()
         {
-            Console.WriteLine(Name,Weghte);
+            Console.WriteLine($"the tool {Name} weghte {Weghte}");
 
         }
-        public void Use()
-        {
-            Console.WriteLine("Tool is being used");
-        }
+        public abstract void Use();
+        
+        
     }
 }
