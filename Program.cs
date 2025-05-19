@@ -17,6 +17,10 @@ namespace Toolbox
             Wrench wrench1 = new Wrench("wrench", 5);
             Hammer hammer1 = new Hammer("hammer", 10);
             List<Tool> listTool = new List<Tool>() { drill1, saw1, saw2, saw3, wrench1, hammer1 };
+            NailGun nailgun1 = new NailGun("nailgun", 1);
+            WireStripper wireStripper1 = new WireStripper("WireStripper", 15);
+            listTool.Add(nailgun1);
+            listTool.Add(wireStripper1);
 
             //foreach (Tool tool in listTool)
             //{

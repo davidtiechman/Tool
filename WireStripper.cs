@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Toolbox
 {
-    internal class WireStripper
+    public class WireStripper : Tool
     {
+        public WireStripper (string name,int weghet) : base(name, weghet)
+        {
+
+        }
+        public override void Use()
+        {
+            Console.WriteLine("אני לא יודע מה ");
+        }
     }
 }
